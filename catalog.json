@@ -756,5 +756,57 @@
     "description": "Длинный джинсовый халат с отложным воротником, нагрудным карманом и скрытой застёжкой.",
     "photo_path": "photos/monica-magni-denim-robe-light.jpeg",
     "extra_photo_path": "photos/monica-magni-denim-robe-light-alt.jpeg"
+  },
+  {
+    "id": "mayak-robe-burgundy",
+    "name": "Маячный халат с бордовыми цветами",
+    "price": "1 600 ₽ в розницу · 1 400 ₽ оптом",
+    "sizes": [
+      "2XL",
+      "3XL",
+      "4XL",
+      "5XL"
+    ],
+    "description": "Длинный домашний халат свободного кроя на молнии, с рукавами три четверти и накладными карманами.",
+    "photo_path": "photos/mayak-robe-burgundy.jpeg"
+  },
+  {
+    "id": "mayak-robe-blue",
+    "name": "Маячный халат с синими полевыми цветами",
+    "price": "1 600 ₽ в розницу · 1 400 ₽ оптом",
+    "sizes": [
+      "2XL",
+      "3XL",
+      "4XL",
+      "5XL"
+    ],
+    "description": "Длинный домашний халат свободного кроя на молнии, с рукавами три четверти и накладными карманами.",
+    "photo_path": "photos/mayak-robe-blue.jpeg"
+  },
+  {
+    "id": "mayak-robe-gray",
+    "name": "Маячный халат графитовый с бежевыми цветами",
+    "price": "1 600 ₽ в розницу · 1 400 ₽ оптом",
+    "sizes": [
+      "2XL",
+      "3XL",
+      "4XL",
+      "5XL"
+    ],
+    "description": "Длинный домашний халат свободного кроя на молнии, с рукавами три четверти и накладными карманами.",
+    "photo_path": "photos/mayak-robe-gray.jpeg"
+  },
+  {
+    "id": "mayak-robe-lilac",
+    "name": "Маячный халат с сиреневыми цветами",
+    "price": "1 600 ₽ в розницу · 1 400 ₽ оптом",
+    "sizes": [
+      "2XL",
+      "3XL",
+      "4XL",
+      "5XL"
+    ],
+    "description": "Длинный домашний халат свободного кроя на молнии, с рукавами три четверти и накладными карманами.",
+    "photo_path": "photos/mayak-robe-lilac.jpeg"
   }
 ]
