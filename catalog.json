@@ -73,5 +73,167 @@
     ],
     "description": "Длинное маячное платье свободного кроя с длинными рукавами. Корейская ткань.",
     "photo_url": "https://raw.githubusercontent.com/hanigovamalika7-create/korea-zura-bot/main/photos/terracotta-ornament.jpeg"
+  },
+  {
+    "id": "monica-brown-dots-buttons",
+    "name": "Monica.Magni · Коричневое в горошек с пуговицами",
+    "price": "3 500 ₽ в розницу · 3 300 ₽ оптом",
+    "sizes": [
+      42,
+      44,
+      46,
+      48,
+      50,
+      52,
+      54,
+      56,
+      "58-60"
+    ],
+    "description": "Длинное платье из тёплого трикотажа. Производство — Корея.",
+    "photo_url": "https://raw.githubusercontent.com/hanigovamalika7-create/korea-zura-bot/main/photos/monica-brown-dots-buttons.jpeg"
+  },
+  {
+    "id": "monica-black-dots-buttons",
+    "name": "Monica.Magni · Чёрное в горошек с пуговицами",
+    "price": "3 500 ₽ в розницу · 3 300 ₽ оптом",
+    "sizes": [
+      42,
+      44,
+      46,
+      48,
+      50,
+      52,
+      54,
+      56,
+      "58-60"
+    ],
+    "description": "Длинное платье из тёплого трикотажа. Производство — Корея.",
+    "photo_url": "https://raw.githubusercontent.com/hanigovamalika7-create/korea-zura-bot/main/photos/monica-black-dots-buttons.jpeg"
+  },
+  {
+    "id": "monica-black-dots-trim",
+    "name": "Monica.Magni · Чёрное в горошек с отделкой спереди",
+    "price": "3 500 ₽ в розницу · 3 300 ₽ оптом",
+    "sizes": [
+      42,
+      44,
+      46,
+      48,
+      50,
+      52,
+      54,
+      56,
+      "58-60"
+    ],
+    "description": "Длинное платье из тёплого трикотажа. Производство — Корея.",
+    "photo_url": "https://raw.githubusercontent.com/hanigovamalika7-create/korea-zura-bot/main/photos/monica-black-dots-trim.jpeg"
+  },
+  {
+    "id": "monica-brown-dots-trim",
+    "name": "Monica.Magni · Коричневое в горошек с отделкой спереди",
+    "price": "3 500 ₽ в розницу · 3 300 ₽ оптом",
+    "sizes": [
+      42,
+      44,
+      46,
+      48,
+      50,
+      52,
+      54,
+      56,
+      "58-60"
+    ],
+    "description": "Длинное платье из тёплого трикотажа. Производство — Корея.",
+    "photo_url": "https://raw.githubusercontent.com/hanigovamalika7-create/korea-zura-bot/main/photos/monica-brown-dots-trim.jpeg"
+  },
+  {
+    "id": "monica-black-dots-jabot",
+    "name": "Monica.Magni · Чёрное в горошек с жабо",
+    "price": "3 500 ₽ в розницу · 3 300 ₽ оптом",
+    "sizes": [
+      42,
+      44,
+      46,
+      48,
+      50,
+      52,
+      54,
+      56,
+      "58-60"
+    ],
+    "description": "Длинное платье из тёплого трикотажа. Производство — Корея.",
+    "photo_url": "https://raw.githubusercontent.com/hanigovamalika7-create/korea-zura-bot/main/photos/monica-black-dots-jabot.jpeg"
+  },
+  {
+    "id": "monica-black-textured",
+    "name": "Monica.Magni · Чёрное фактурное с короткой планкой",
+    "price": "3 500 ₽ в розницу · 3 300 ₽ оптом",
+    "sizes": [
+      42,
+      44,
+      46,
+      48,
+      50,
+      52,
+      54,
+      56,
+      "58-60"
+    ],
+    "description": "Длинное платье из тёплого трикотажа. Производство — Корея.",
+    "photo_url": "https://raw.githubusercontent.com/hanigovamalika7-create/korea-zura-bot/main/photos/monica-black-textured.jpeg"
+  },
+  {
+    "id": "monica-black-embellished",
+    "name": "Monica.Magni · Чёрное с декоративной отделкой на груди",
+    "price": "3 500 ₽ в розницу · 3 300 ₽ оптом",
+    "sizes": [
+      42,
+      44,
+      46,
+      48,
+      50,
+      52,
+      54,
+      56,
+      "58-60"
+    ],
+    "description": "Длинное платье из тёплого трикотажа. Производство — Корея.",
+    "photo_url": "https://raw.githubusercontent.com/hanigovamalika7-create/korea-zura-bot/main/photos/monica-black-embellished.jpeg"
+  },
+  {
+    "id": "monica-black-ruffle",
+    "name": "Monica.Magni · Чёрное с вертикальной оборкой",
+    "price": "3 500 ₽ в розницу · 3 300 ₽ оптом",
+    "sizes": [
+      42,
+      44,
+      46,
+      48,
+      50,
+      52,
+      54,
+      56,
+      "58-60"
+    ],
+    "description": "Длинное платье из тёплого трикотажа. Производство — Корея.",
+    "photo_url": "https://raw.githubusercontent.com/hanigovamalika7-create/korea-zura-bot/main/photos/monica-black-ruffle.jpeg"
+  },
+  {
+    "id": "monica-black-button-front",
+    "name": "Monica.Magni · Чёрное с рядом пуговиц и серебристым кантом",
+    "price": "3 500 ₽ в розницу · 3 300 ₽ оптом",
+    "sizes": [
+      42,
+      44,
+      46,
+      48,
+      50,
+      52,
+      54,
+      56,
+      "58-60"
+    ],
+    "description": "Длинное платье из тёплого трикотажа. Производство — Корея.",
+    "photo_url": "https://raw.githubusercontent.com/hanigovamalika7-create/korea-zura-bot/main/photos/monica-black-button-front.jpeg"
   }
 ]
