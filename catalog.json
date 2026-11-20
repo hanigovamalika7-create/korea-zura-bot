@@ -235,5 +235,158 @@
     ],
     "description": "Длинное платье из тёплого трикотажа. Производство — Корея.",
     "photo_url": "https://raw.githubusercontent.com/hanigovamalika7-create/korea-zura-bot/main/photos/monica-black-button-front.jpeg"
+  },
+  {
+    "id": "cupra-navy-leaves",
+    "name": "Купра · Тёмно-синее с узором из листьев",
+    "price": "6 000 ₽",
+    "sizes": [
+      42,
+      44,
+      46,
+      48,
+      50,
+      52,
+      54,
+      56
+    ],
+    "description": "Длинное платье из купры с длинными рукавами.",
+    "photo_url": "https://raw.githubusercontent.com/hanigovamalika7-create/korea-zura-bot/main/photos/cupra-navy-leaves.jpeg"
+  },
+  {
+    "id": "cupra-brown-leaves",
+    "name": "Купра · Шоколадное с пуговицами и узором из листьев",
+    "price": "6 000 ₽",
+    "sizes": [
+      42,
+      44,
+      46,
+      48,
+      50,
+      52,
+      54,
+      56
+    ],
+    "description": "Длинное платье из купры с длинными рукавами.",
+    "photo_url": "https://raw.githubusercontent.com/hanigovamalika7-create/korea-zura-bot/main/photos/cupra-brown-leaves.jpeg"
+  },
+  {
+    "id": "cupra-taupe-floral",
+    "name": "Купра · Серо-коричневое с цветочным узором",
+    "price": "6 000 ₽",
+    "sizes": [
+      42,
+      44,
+      46,
+      48,
+      50,
+      52,
+      54,
+      56
+    ],
+    "description": "Длинное платье из купры с длинными рукавами.",
+    "photo_url": "https://raw.githubusercontent.com/hanigovamalika7-create/korea-zura-bot/main/photos/cupra-taupe-floral.jpeg"
+  },
+  {
+    "id": "cupra-black-roses",
+    "name": "Купра · Чёрное с розами и отложным воротником",
+    "price": "6 000 ₽",
+    "sizes": [
+      42,
+      44,
+      46,
+      48,
+      50,
+      52,
+      54,
+      56
+    ],
+    "description": "Длинное платье из купры с длинными рукавами.",
+    "photo_url": "https://raw.githubusercontent.com/hanigovamalika7-create/korea-zura-bot/main/photos/cupra-black-roses.jpeg"
+  },
+  {
+    "id": "cupra-plum-pleats",
+    "name": "Купра · Сливовое с боковой плиссировкой",
+    "price": "6 000 ₽",
+    "sizes": [
+      42,
+      44,
+      46,
+      48,
+      50,
+      52,
+      54,
+      56
+    ],
+    "description": "Длинное платье из купры с длинными рукавами.",
+    "photo_url": "https://raw.githubusercontent.com/hanigovamalika7-create/korea-zura-bot/main/photos/cupra-plum-pleats.jpeg"
+  },
+  {
+    "id": "cupra-black-shoulder-trim",
+    "name": "Купра · Чёрное с цветами и отделкой от плеча",
+    "price": "6 000 ₽",
+    "sizes": [
+      42,
+      44,
+      46,
+      48,
+      50,
+      52,
+      54,
+      56
+    ],
+    "description": "Длинное платье из купры с длинными рукавами.",
+    "photo_url": "https://raw.githubusercontent.com/hanigovamalika7-create/korea-zura-bot/main/photos/cupra-black-shoulder-trim.jpeg"
+  },
+  {
+    "id": "cupra-black-floral-pleats",
+    "name": "Купра · Чёрное с цветами и боковой вставкой",
+    "price": "6 000 ₽",
+    "sizes": [
+      42,
+      44,
+      46,
+      48,
+      50,
+      52,
+      54,
+      56
+    ],
+    "description": "Длинное платье из купры с длинными рукавами.",
+    "photo_url": "https://raw.githubusercontent.com/hanigovamalika7-create/korea-zura-bot/main/photos/cupra-black-floral-pleats.jpeg"
+  },
+  {
+    "id": "cupra-black-asymmetric",
+    "name": "Купра · Чёрное с асимметричными ярусами и кружевными манжетами",
+    "price": "6 000 ₽",
+    "sizes": [
+      42,
+      44,
+      46,
+      48,
+      50,
+      52,
+      54,
+      56
+    ],
+    "description": "Длинное платье из купры с длинными рукавами.",
+    "photo_url": "https://raw.githubusercontent.com/hanigovamalika7-create/korea-zura-bot/main/photos/cupra-black-asymmetric.jpeg"
+  },
+  {
+    "id": "cupra-black-v-yoke",
+    "name": "Купра · Чёрное с V-образной отделкой на груди",
+    "price": "6 000 ₽",
+    "sizes": [
+      42,
+      44,
+      46,
+      48,
+      50,
+      52,
+      54,
+      56
+    ],
+    "description": "Длинное платье из купры с длинными рукавами.",
+    "photo_url": "https://raw.githubusercontent.com/hanigovamalika7-create/korea-zura-bot/main/photos/cupra-black-v-yoke.jpeg"
   }
 ]
