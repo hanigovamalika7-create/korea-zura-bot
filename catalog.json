@@ -1,1 +1,77 @@
-[]
+[
+  {
+    "id": "blue-flowers",
+    "name": "Серо-голубое с полевыми цветами",
+    "price": "1 600 ₽ в розницу · 1 400 ₽ оптом",
+    "sizes": [
+      46,
+      48,
+      50,
+      52,
+      54,
+      56
+    ],
+    "description": "Длинное маячное платье свободного кроя с длинными рукавами. Корейская ткань.",
+    "photo_url": "https://raw.githubusercontent.com/hanigovamalika7-create/korea-zura-bot/main/photos/blue-flowers.jpeg"
+  },
+  {
+    "id": "gray-flowers",
+    "name": "Серое с цветочным узором",
+    "price": "1 600 ₽ в розницу · 1 400 ₽ оптом",
+    "sizes": [
+      46,
+      48,
+      50,
+      52,
+      54,
+      56
+    ],
+    "description": "Длинное маячное платье свободного кроя с длинными рукавами. Корейская ткань.",
+    "photo_url": "https://raw.githubusercontent.com/hanigovamalika7-create/korea-zura-bot/main/photos/gray-flowers.jpeg"
+  },
+  {
+    "id": "olive-flowers",
+    "name": "Серо-оливковое с фиолетовыми цветами",
+    "price": "1 600 ₽ в розницу · 1 400 ₽ оптом",
+    "sizes": [
+      46,
+      48,
+      50,
+      52,
+      54,
+      56
+    ],
+    "description": "Длинное маячное платье свободного кроя с длинными рукавами. Корейская ткань.",
+    "photo_url": "https://raw.githubusercontent.com/hanigovamalika7-create/korea-zura-bot/main/photos/olive-flowers.jpeg"
+  },
+  {
+    "id": "blue-ornament",
+    "name": "Светлое с синим орнаментом",
+    "price": "1 600 ₽ в розницу · 1 400 ₽ оптом",
+    "sizes": [
+      46,
+      48,
+      50,
+      52,
+      54,
+      56
+    ],
+    "description": "Длинное маячное платье свободного кроя с длинными рукавами. Корейская ткань.",
+    "photo_url": "https://raw.githubusercontent.com/hanigovamalika7-create/korea-zura-bot/main/photos/blue-ornament.jpeg"
+  },
+  {
+    "id": "terracotta-ornament",
+    "name": "Голубое с терракотовым орнаментом",
+    "price": "1 600 ₽ в розницу · 1 400 ₽ оптом",
+    "sizes": [
+      46,
+      48,
+      50,
+      52,
+      54,
+      56
+    ],
+    "description": "Длинное маячное платье свободного кроя с длинными рукавами. Корейская ткань.",
+    "photo_url": "https://raw.githubusercontent.com/hanigovamalika7-create/korea-zura-bot/main/photos/terracotta-ornament.jpeg"
+  }
+]
