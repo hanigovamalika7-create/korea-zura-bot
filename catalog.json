@@ -723,5 +723,38 @@
     "category": "outerwear",
     "description": "Турецкая вязаная безрукавка Bagma. Чёрная модель с рельефной вязкой на плечах и металлическим декором на карманах.",
     "photo_path": "photos/bagma-black-trim.jpeg"
+  },
+  {
+    "id": "monica-magni-denim-robe-dark",
+    "name": "Тёмный джинсовый халат Monica.Magni",
+    "price": "4 500 ₽",
+    "sizes": [
+      42,
+      44,
+      46,
+      48,
+      50
+    ],
+    "description": "Длинный джинсовый халат приталенного кроя, с золотистыми пуговицами и боковыми карманами.",
+    "photo_path": "photos/monica-magni-denim-robe-dark.jpeg",
+    "extra_photo_path": "photos/monica-magni-denim-robe-dark-alt.jpeg"
+  },
+  {
+    "id": "monica-magni-denim-robe-light",
+    "name": "Светлый джинсовый халат Monica.Magni",
+    "price": "4 500 ₽",
+    "sizes": [
+      42,
+      44,
+      46,
+      48,
+      50,
+      52,
+      54,
+      56
+    ],
+    "description": "Длинный джинсовый халат с отложным воротником, нагрудным карманом и скрытой застёжкой.",
+    "photo_path": "photos/monica-magni-denim-robe-light.jpeg",
+    "extra_photo_path": "photos/monica-magni-denim-robe-light-alt.jpeg"
   }
 ]
