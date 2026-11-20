@@ -34,19 +34,79 @@ async def start(update: Update, context: ContextTypes.DEFAULT_TYPE):
     )
 
 
+DRESS_SECTIONS = {
+    "mayak": "Маячные модели",
+    "monica": "Monica.Magni",
+    "cupra": "Платья из купры",
+    "other": "Другие платья",
+}
+PAGE_SIZE = 10
+
+
+def dress_section(item):
+    prefix = item["id"].split("-", 1)[0]
+    if prefix in ("mayak", "monica", "cupra"):
+        return prefix
+    if "маячн" in item.get("description", "").casefold():
+        return "mayak"
+    return "other"
+
+
 async def show_catalog(update: Update, context: ContextTypes.DEFAULT_TYPE):
     query = update.callback_query
     await query.answer()
-    outerwear = query.data == "outerwear"
-    items = [item for item in catalog() if (item.get("category") == "outerwear") == outerwear]
-    if not items:
-        await query.message.reply_text("Каталог скоро пополнится! 💕")
+    dresses = []
+    outerwear = []
+    for item in catalog():
+        (outerwear if item.get("category") == "outerwear" else dresses).append(item)
+
+    if query.data == "menu":
+        await query.edit_message_text("Выберите раздел каталога", reply_markup=menu())
         return
+
+    if query.data == "catalog":
+        available_sections = {dress_section(item) for item in dresses}
+        buttons = [
+            [InlineKeyboardButton(label, callback_data=f"browse:{section}:0")]
+            for section, label in DRESS_SECTIONS.items()
+            if section in available_sections
+        ]
+        buttons.append([InlineKeyboardButton("‹ Главное меню", callback_data="menu")])
+        title = "Выберите раздел платьев" if dresses else "Каталог скоро пополнится! 💕"
+        await query.edit_message_text(title, reply_markup=InlineKeyboardMarkup(buttons))
+        return
+
+    section, page = "outerwear", 0
+    if query.data.startswith("browse:"):
+        _, section, page_text = query.data.split(":")
+        page = int(page_text)
+    if section == "outerwear":
+        items, title, back = outerwear, "Верхняя одежда", "menu"
+    else:
+        items = [item for item in dresses if dress_section(item) == section]
+        title, back = DRESS_SECTIONS[section], "catalog"
+
+    page_count = max(1, (len(items) + PAGE_SIZE - 1) // PAGE_SIZE)
+    page = min(page, page_count - 1)
+    start_index = page * PAGE_SIZE
     buttons = [
-        [InlineKeyboardButton(item["name"], callback_data=f'item:{item["id"]}')]
-        for item in items
+        [InlineKeyboardButton(item["name"].split(" · ", 1)[-1] if section in ("cupra", "monica")
+                              else item["name"], callback_data=f'item:{item["id"]}')]
+        for item in items[start_index:start_index + PAGE_SIZE]
     ]
-    await query.message.reply_text("Выберите модель:", reply_markup=InlineKeyboardMarkup(buttons))
+    navigation = []
+    if page > 0:
+        navigation.append(InlineKeyboardButton("‹ Назад", callback_data=f"browse:{section}:{page - 1}"))
+    if page + 1 < page_count:
+        navigation.append(InlineKeyboardButton("Далее ›", callback_data=f"browse:{section}:{page + 1}"))
+    if navigation:
+        buttons.append(navigation)
+    buttons.append([InlineKeyboardButton("‹ К разделам", callback_data=back)])
+    if not items:
+        title = "Каталог скоро пополнится! 💕"
+    elif page_count > 1:
+        title = f"{title} · {page + 1}/{page_count}"
+    await query.edit_message_text(title, reply_markup=InlineKeyboardMarkup(buttons))
 
 
 async def show_item(update: Update, context: ContextTypes.DEFAULT_TYPE):
@@ -149,7 +209,7 @@ def main():
         },
         fallbacks=[CommandHandler("cancel", cancel)],
     ))
-    app.add_handler(CallbackQueryHandler(show_catalog, pattern=r"^(catalog|outerwear)$"))
+    app.add_handler(CallbackQueryHandler(show_catalog, pattern=r"^(catalog|outerwear|menu|browse:(?:mayak|monica|cupra|other|outerwear):[0-9]+)$"))
     app.add_handler(CallbackQueryHandler(show_item, pattern=r"^item:"))
     app.run_polling()
 
