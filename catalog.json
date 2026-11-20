@@ -551,5 +551,87 @@
     "price": "5 000 ₽",
     "description": "Длинное платье из купры. Наличие размеров уточняйте.",
     "photo_url": "https://raw.githubusercontent.com/hanigovamalika7-create/korea-zura-bot/main/photos/cupra-5000-double-ruffle.jpeg"
+  },
+  {
+    "id": "bomber-silver",
+    "name": "Бомбер с серебристым декором",
+    "category": "outerwear",
+    "price": "3 500 ₽",
+    "description": "На молнии, с боковыми карманами и блестящим декором на плече. Наличие размеров уточняйте.",
+    "photo_path": "photos/bomber-silver.jpeg"
+  },
+  {
+    "id": "bomber-black",
+    "name": "Бомбер с чёрным декором",
+    "category": "outerwear",
+    "price": "3 500 ₽",
+    "description": "На молнии, с боковыми карманами и декором из чёрных бусин на плече. Наличие размеров уточняйте.",
+    "photo_path": "photos/bomber-black.jpeg"
+  },
+  {
+    "id": "denim-brown",
+    "name": "Коричневый джинсовый жакет",
+    "category": "outerwear",
+    "price": "4 500 ₽",
+    "description": "На пуговицах, с отложным воротником и накладными карманами. Наличие размеров уточняйте.",
+    "photo_path": "photos/denim-brown.jpeg"
+  },
+  {
+    "id": "denim-graphite",
+    "name": "Графитовый джинсовый жакет",
+    "category": "outerwear",
+    "price": "4 500 ₽",
+    "description": "Прямой крой, застёжка на пуговицах и два накладных кармана. Наличие размеров уточняйте.",
+    "photo_path": "photos/denim-graphite.jpeg"
+  },
+  {
+    "id": "denim-drawstring",
+    "name": "Джинсовый жакет с кулиской",
+    "category": "outerwear",
+    "price": "4 500 ₽",
+    "description": "Тёмно-синяя удлинённая модель на пуговицах с регулируемой кулиской на талии. Наличие размеров уточняйте.",
+    "photo_path": "photos/denim-drawstring.jpeg"
+  },
+  {
+    "id": "denim-blue-belt",
+    "name": "Синий джинсовый жакет с поясом",
+    "category": "outerwear",
+    "price": "4 500 ₽",
+    "description": "Модель на пуговицах, с поясом и нагрудными клапанами. Наличие размеров уточняйте.",
+    "photo_path": "photos/denim-blue-belt.jpeg",
+    "extra_photo_path": "photos/denim-blue-belt-alt.jpeg"
+  },
+  {
+    "id": "denim-contrast",
+    "name": "Джинсовый жакет с контрастным воротником",
+    "category": "outerwear",
+    "price": "4 500 ₽",
+    "description": "Удлинённая модель с поясом, коричневым воротником и манжетами. Наличие размеров уточняйте.",
+    "photo_path": "photos/denim-contrast.jpeg"
+  },
+  {
+    "id": "angora-swirl",
+    "name": "Ангоровый жакет с узором",
+    "category": "outerwear",
+    "price": "3 000 ₽",
+    "description": "Чёрная модель на молнии с объёмным узором в тон. Наличие размеров уточняйте.",
+    "photo_path": "photos/angora-swirl.jpeg",
+    "extra_photo_path": "photos/angora-swirl-alt.jpeg"
+  },
+  {
+    "id": "angora-buttons",
+    "name": "Ангоровый жакет на пуговицах",
+    "category": "outerwear",
+    "price": "3 000 ₽",
+    "description": "Чёрная модель с отложным воротником, рельефными полосами и карманами. Наличие размеров уточняйте.",
+    "photo_path": "photos/angora-buttons.jpeg"
+  },
+  {
+    "id": "angora-trim",
+    "name": "Ангоровый жакет с отделкой карманов",
+    "category": "outerwear",
+    "price": "3 000 ₽",
+    "description": "Чёрная модель на пуговицах с вертикальной фактурой и отделкой карманов. Наличие размеров уточняйте.",
+    "photo_path": "photos/angora-trim.jpeg"
   }
 ]

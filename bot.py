@@ -21,7 +21,10 @@ def catalog():
 
 
 def menu():
-    return InlineKeyboardMarkup([[InlineKeyboardButton("👗 Каталог платьев", callback_data="catalog")]])
+    return InlineKeyboardMarkup([
+        [InlineKeyboardButton("👗 Каталог платьев", callback_data="catalog")],
+        [InlineKeyboardButton("🧥 Верхняя одежда", callback_data="outerwear")],
+    ])
 
 
 async def start(update: Update, context: ContextTypes.DEFAULT_TYPE):
@@ -34,7 +37,8 @@ async def start(update: Update, context: ContextTypes.DEFAULT_TYPE):
 async def show_catalog(update: Update, context: ContextTypes.DEFAULT_TYPE):
     query = update.callback_query
     await query.answer()
-    items = catalog()
+    outerwear = query.data == "outerwear"
+    items = [item for item in catalog() if (item.get("category") == "outerwear") == outerwear]
     if not items:
         await query.message.reply_text("Каталог скоро пополнится! 💕")
         return
@@ -59,8 +63,16 @@ async def show_item(update: Update, context: ContextTypes.DEFAULT_TYPE):
         if value:
             details.append(f'{label}: {", ".join(map(str, value)) if isinstance(value, list) else value}')
     buttons = InlineKeyboardMarkup([[InlineKeyboardButton("🛒 Заказать", callback_data=f"order:{item_id}")]])
+    photo_path = item.get("photo_path")
     photo = item.get("photo_url")
-    if photo:
+    if photo_path:
+        with (CATALOG_PATH.parent / photo_path).open("rb") as photo_file:
+            await query.message.reply_photo(photo=photo_file, caption="\n".join(details), reply_markup=buttons)
+        extra_photo_path = item.get("extra_photo_path")
+        if extra_photo_path:
+            with (CATALOG_PATH.parent / extra_photo_path).open("rb") as extra_photo:
+                await query.message.reply_photo(photo=extra_photo)
+    elif photo:
         await query.message.reply_photo(photo=photo, caption="\n".join(details), reply_markup=buttons)
     else:
         await query.message.reply_text("\n".join(details), reply_markup=buttons)
@@ -137,7 +149,7 @@ def main():
         },
         fallbacks=[CommandHandler("cancel", cancel)],
     ))
-    app.add_handler(CallbackQueryHandler(show_catalog, pattern=r"^catalog$"))
+    app.add_handler(CallbackQueryHandler(show_catalog, pattern=r"^(catalog|outerwear)$"))
     app.add_handler(CallbackQueryHandler(show_item, pattern=r"^item:"))
     app.run_polling()
 
