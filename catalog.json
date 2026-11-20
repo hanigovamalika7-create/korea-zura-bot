@@ -633,5 +633,95 @@
     "price": "3 000 ₽",
     "description": "Чёрная модель на пуговицах с вертикальной фактурой и отделкой карманов. Наличие размеров уточняйте.",
     "photo_path": "photos/angora-trim.jpeg"
+  },
+  {
+    "id": "bagma-taupe",
+    "name": "Безрукавка Bagma · бежевая на молнии",
+    "price": "4 200 ₽",
+    "sizes": [
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL"
+    ],
+    "category": "outerwear",
+    "description": "Турецкая вязаная безрукавка Bagma. С накладными карманами и отделкой в тон.",
+    "photo_path": "photos/bagma-taupe.jpeg"
+  },
+  {
+    "id": "bagma-green",
+    "name": "Безрукавка Bagma · тёмно-зелёная на молнии",
+    "price": "4 200 ₽",
+    "sizes": [
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL"
+    ],
+    "category": "outerwear",
+    "description": "Турецкая вязаная безрукавка Bagma. С крупными накладными карманами.",
+    "photo_path": "photos/bagma-green.jpeg"
+  },
+  {
+    "id": "bagma-diamond-buttons",
+    "name": "Безрукавка Bagma · с фигурными пуговицами",
+    "price": "4 200 ₽",
+    "sizes": [
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL"
+    ],
+    "category": "outerwear",
+    "description": "Турецкая вязаная безрукавка Bagma. Чёрная модель с накладными карманами и небольшими блестящими акцентами.",
+    "photo_path": "photos/bagma-diamond-buttons.jpeg"
+  },
+  {
+    "id": "bagma-textured",
+    "name": "Безрукавка Bagma · фактурная с декором",
+    "price": "4 200 ₽",
+    "sizes": [
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL"
+    ],
+    "category": "outerwear",
+    "description": "Турецкая вязаная безрукавка Bagma. Чёрная модель рельефной вязки с блестящей отделкой на карманах.",
+    "photo_path": "photos/bagma-textured.jpeg"
+  },
+  {
+    "id": "bagma-diamond-zip",
+    "name": "Безрукавка Bagma · на молнии с ромбами",
+    "price": "4 200 ₽",
+    "sizes": [
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL"
+    ],
+    "category": "outerwear",
+    "description": "Турецкая вязаная безрукавка Bagma. Чёрная модель с ромбовидным узором и двумя карманами.",
+    "photo_path": "photos/bagma-diamond-zip.jpeg"
+  },
+  {
+    "id": "bagma-black-trim",
+    "name": "Безрукавка Bagma · на молнии с отделкой плеч",
+    "price": "4 200 ₽",
+    "sizes": [
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL"
+    ],
+    "category": "outerwear",
+    "description": "Турецкая вязаная безрукавка Bagma. Чёрная модель с рельефной вязкой на плечах и металлическим декором на карманах.",
+    "photo_path": "photos/bagma-black-trim.jpeg"
   }
 ]
