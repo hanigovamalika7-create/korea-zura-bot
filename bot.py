@@ -42,8 +42,8 @@ DRESS_SECTIONS = {
     "cupra": "Платья из купры",
     "other": "Другие платья",
 }
-PAGE_SIZE = 10
-CUPRA_PAGE_SIZE = 6
+PAGE_SIZE = 6
+MAYAK_PAGE_SIZE = 9
 
 
 def dress_section(item):
@@ -89,36 +89,27 @@ async def show_catalog(update: Update, context: ContextTypes.DEFAULT_TYPE):
         items = [item for item in dresses if dress_section(item) == section]
         title, back = DRESS_SECTIONS[section], "catalog"
 
-    page_size = CUPRA_PAGE_SIZE if section == "cupra" else PAGE_SIZE
+    page_size = MAYAK_PAGE_SIZE if section == "mayak" else PAGE_SIZE
     page_count = max(1, (len(items) + page_size - 1) // page_size)
     page = min(page, page_count - 1)
     start_index = page * page_size
     page_items = items[start_index:start_index + page_size]
-    buttons = [
-        [InlineKeyboardButton(item["name"].split(" · ", 1)[-1] if section in ("cupra", "monica")
-                              else item["name"], callback_data=f'item:{item["id"]}')]
-        for item in page_items
-    ]
     navigation = []
     if page > 0:
         navigation.append(InlineKeyboardButton("‹ Назад", callback_data=f"browse:{section}:{page - 1}"))
     if page + 1 < page_count:
         navigation.append(InlineKeyboardButton("Далее ›", callback_data=f"browse:{section}:{page + 1}"))
     back_button = [InlineKeyboardButton("‹ К разделам", callback_data=back)]
-    if section == "cupra" and page_items:
-        await show_cupra_album(query.message, page_items, page, page_count, navigation, back_button)
+    if not page_items:
+        await query.edit_message_text(
+            "Каталог скоро пополнится! 💕",
+            reply_markup=InlineKeyboardMarkup([back_button]),
+        )
         return
-    if navigation:
-        buttons.append(navigation)
-    buttons.append(back_button)
-    if not items:
-        title = "Каталог скоро пополнится! 💕"
-    elif page_count > 1:
-        title = f"{title} · {page + 1}/{page_count}"
-    await query.edit_message_text(title, reply_markup=InlineKeyboardMarkup(buttons))
+    await show_album(query.message, title, page_items, page, page_count, navigation, back_button)
 
 
-async def show_cupra_album(message, items, page, page_count, navigation, back_button):
+async def show_album(message, title, items, page, page_count, navigation, back_button):
     model_buttons = []
     with ExitStack() as files:
         photos = []
@@ -139,24 +130,24 @@ async def show_cupra_album(message, items, page, page_count, navigation, back_bu
             try:
                 await message.reply_media_group(photos)
             except BadRequest:
-                logging.warning("Could not send Cupra album, trying photos individually")
+                logging.warning("Could not send catalog album, trying photos individually")
                 for photo in photos:
                     try:
                         await message.reply_photo(photo.media, caption=photo.caption)
                     except BadRequest:
-                        logging.warning("Could not send Cupra photo: %s", photo.caption)
+                        logging.warning("Could not send catalog photo: %s", photo.caption)
         elif photos:
             try:
                 await message.reply_photo(photos[0].media, caption=photos[0].caption)
             except BadRequest:
-                logging.warning("Could not send Cupra photo: %s", photos[0].caption)
+                logging.warning("Could not send catalog photo: %s", photos[0].caption)
 
-    buttons = [model_buttons]
+    buttons = [model_buttons[index:index + PAGE_SIZE] for index in range(0, len(model_buttons), PAGE_SIZE)]
     if navigation:
         buttons.append(navigation)
     buttons.append(back_button)
     await message.reply_text(
-        f"Платья из купры · {page + 1}/{page_count}\nНажмите номер модели, чтобы увидеть цену и размеры.",
+        f"{title} · {page + 1}/{page_count}\nНажмите номер модели, чтобы увидеть цену и размеры.",
         reply_markup=InlineKeyboardMarkup(buttons),
     )
 
