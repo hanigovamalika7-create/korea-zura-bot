@@ -516,5 +516,40 @@
     ],
     "description": "Длинное платье из купры с длинными рукавами.",
     "photo_url": "https://raw.githubusercontent.com/hanigovamalika7-create/korea-zura-bot/main/photos/cupra-budget-2519.jpeg"
+  },
+  {
+    "id": "cupra-5000-small-flowers",
+    "name": "Купра · Чёрное с мелкими светлыми цветами",
+    "price": "5 000 ₽",
+    "description": "Длинное платье из купры. Наличие размеров уточняйте.",
+    "photo_url": "https://raw.githubusercontent.com/hanigovamalika7-create/korea-zura-bot/main/photos/cupra-5000-small-flowers.jpeg"
+  },
+  {
+    "id": "cupra-5000-three-buttons",
+    "name": "Купра · Чёрное с тремя пуговицами и кантом",
+    "price": "5 000 ₽",
+    "description": "Длинное платье из купры. Наличие размеров уточняйте.",
+    "photo_url": "https://raw.githubusercontent.com/hanigovamalika7-create/korea-zura-bot/main/photos/cupra-5000-three-buttons.jpeg"
+  },
+  {
+    "id": "cupra-5000-full-buttons",
+    "name": "Купра · Чёрное с пуговицами по всей длине",
+    "price": "5 000 ₽",
+    "description": "Длинное платье из купры. Наличие размеров уточняйте.",
+    "photo_url": "https://raw.githubusercontent.com/hanigovamalika7-create/korea-zura-bot/main/photos/cupra-5000-full-buttons.jpeg"
+  },
+  {
+    "id": "cupra-5000-large-flowers",
+    "name": "Купра · Чёрное с крупными золотистыми цветами",
+    "price": "5 000 ₽",
+    "description": "Длинное платье из купры. Наличие размеров уточняйте.",
+    "photo_url": "https://raw.githubusercontent.com/hanigovamalika7-create/korea-zura-bot/main/photos/cupra-5000-large-flowers.jpeg"
+  },
+  {
+    "id": "cupra-5000-double-ruffle",
+    "name": "Купра · Графитовое с двойной оборкой",
+    "price": "5 000 ₽",
+    "description": "Длинное платье из купры. Наличие размеров уточняйте.",
+    "photo_url": "https://raw.githubusercontent.com/hanigovamalika7-create/korea-zura-bot/main/photos/cupra-5000-double-ruffle.jpeg"
   }
 ]
