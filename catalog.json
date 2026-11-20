@@ -557,57 +557,108 @@
     "name": "Бомбер с серебристым декором",
     "category": "outerwear",
     "price": "3 500 ₽",
-    "description": "На молнии, с боковыми карманами и блестящим декором на плече. Наличие размеров уточняйте.",
-    "photo_path": "photos/bomber-silver.jpeg"
+    "description": "На молнии, с боковыми карманами и блестящим декором на плече.",
+    "photo_path": "photos/bomber-silver.jpeg",
+    "sizes": [
+      12,
+      14,
+      16,
+      18,
+      20,
+      22,
+      24,
+      26
+    ]
   },
   {
     "id": "bomber-black",
     "name": "Бомбер с чёрным декором",
     "category": "outerwear",
     "price": "3 500 ₽",
-    "description": "На молнии, с боковыми карманами и декором из чёрных бусин на плече. Наличие размеров уточняйте.",
-    "photo_path": "photos/bomber-black.jpeg"
+    "description": "На молнии, с боковыми карманами и декором из чёрных бусин на плече.",
+    "photo_path": "photos/bomber-black.jpeg",
+    "sizes": [
+      12,
+      14,
+      16,
+      18,
+      20,
+      22,
+      24,
+      26
+    ]
   },
   {
     "id": "denim-brown",
     "name": "Коричневый джинсовый жакет",
     "category": "outerwear",
     "price": "4 500 ₽",
-    "description": "На пуговицах, с отложным воротником и накладными карманами. Наличие размеров уточняйте.",
-    "photo_path": "photos/denim-brown.jpeg"
+    "description": "На пуговицах, с отложным воротником и накладными карманами.",
+    "photo_path": "photos/denim-brown.jpeg",
+    "sizes": [
+      "M",
+      "L",
+      "XL"
+    ]
   },
   {
     "id": "denim-graphite",
     "name": "Графитовый джинсовый жакет",
     "category": "outerwear",
     "price": "4 500 ₽",
-    "description": "Прямой крой, застёжка на пуговицах и два накладных кармана. Наличие размеров уточняйте.",
-    "photo_path": "photos/denim-graphite.jpeg"
+    "description": "Прямой крой, застёжка на пуговицах и два накладных кармана.",
+    "photo_path": "photos/denim-graphite.jpeg",
+    "sizes": [
+      "M",
+      "L",
+      "XL"
+    ]
   },
   {
     "id": "denim-drawstring",
     "name": "Джинсовый жакет с кулиской",
     "category": "outerwear",
     "price": "4 500 ₽",
-    "description": "Тёмно-синяя удлинённая модель на пуговицах с регулируемой кулиской на талии. Наличие размеров уточняйте.",
-    "photo_path": "photos/denim-drawstring.jpeg"
+    "description": "Тёмно-синяя удлинённая модель на пуговицах с регулируемой кулиской на талии.",
+    "photo_path": "photos/denim-drawstring.jpeg",
+    "sizes": [
+      14,
+      16,
+      18,
+      20,
+      22,
+      24
+    ]
   },
   {
     "id": "denim-blue-belt",
     "name": "Синий джинсовый жакет с поясом",
     "category": "outerwear",
     "price": "4 500 ₽",
-    "description": "Модель на пуговицах, с поясом и нагрудными клапанами. Наличие размеров уточняйте.",
+    "description": "Модель на пуговицах, с поясом и нагрудными клапанами.",
     "photo_path": "photos/denim-blue-belt.jpeg",
-    "extra_photo_path": "photos/denim-blue-belt-alt.jpeg"
+    "extra_photo_path": "photos/denim-blue-belt-alt.jpeg",
+    "sizes": [
+      "M",
+      "L",
+      "XL"
+    ]
   },
   {
     "id": "denim-contrast",
     "name": "Джинсовый жакет с контрастным воротником",
     "category": "outerwear",
     "price": "4 500 ₽",
-    "description": "Удлинённая модель с поясом, коричневым воротником и манжетами. Наличие размеров уточняйте.",
-    "photo_path": "photos/denim-contrast.jpeg"
+    "description": "Удлинённая модель с поясом, коричневым воротником и манжетами.",
+    "photo_path": "photos/denim-contrast.jpeg",
+    "sizes": [
+      14,
+      16,
+      18,
+      20,
+      22,
+      24
+    ]
   },
   {
     "id": "angora-swirl",
