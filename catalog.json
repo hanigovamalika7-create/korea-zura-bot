@@ -388,5 +388,133 @@
     ],
     "description": "Длинное платье из купры с длинными рукавами.",
     "photo_url": "https://raw.githubusercontent.com/hanigovamalika7-create/korea-zura-bot/main/photos/cupra-black-v-yoke.jpeg"
+  },
+  {
+    "id": "cupra-budget-2509",
+    "name": "Купра · Серо-коричневое с мелким узором",
+    "price": "3 000 ₽",
+    "sizes": [
+      44,
+      46,
+      48,
+      50,
+      52,
+      54,
+      56
+    ],
+    "description": "Длинное платье из купры с длинными рукавами.",
+    "photo_url": "https://raw.githubusercontent.com/hanigovamalika7-create/korea-zura-bot/main/photos/cupra-budget-2509.jpeg"
+  },
+  {
+    "id": "cupra-budget-2510",
+    "name": "Купра · Чёрное с волнистым узором",
+    "price": "3 000 ₽",
+    "sizes": [
+      44,
+      46,
+      48,
+      50,
+      52,
+      54,
+      56
+    ],
+    "description": "Длинное платье из купры с длинными рукавами.",
+    "photo_url": "https://raw.githubusercontent.com/hanigovamalika7-create/korea-zura-bot/main/photos/cupra-budget-2510.jpeg"
+  },
+  {
+    "id": "cupra-budget-2511",
+    "name": "Купра · Коричневое с абстрактным узором",
+    "price": "3 000 ₽",
+    "sizes": [
+      44,
+      46,
+      48,
+      50,
+      52,
+      54,
+      56
+    ],
+    "description": "Длинное платье из купры с длинными рукавами.",
+    "photo_url": "https://raw.githubusercontent.com/hanigovamalika7-create/korea-zura-bot/main/photos/cupra-budget-2511.jpeg"
+  },
+  {
+    "id": "cupra-budget-2512",
+    "name": "Купра · Шоколадное с растительным узором",
+    "price": "3 000 ₽",
+    "sizes": [
+      44,
+      46,
+      48,
+      50,
+      52,
+      54,
+      56
+    ],
+    "description": "Длинное платье из купры с длинными рукавами.",
+    "photo_url": "https://raw.githubusercontent.com/hanigovamalika7-create/korea-zura-bot/main/photos/cupra-budget-2512.jpeg"
+  },
+  {
+    "id": "cupra-budget-2513",
+    "name": "Купра · Чёрное с мраморным узором",
+    "price": "3 000 ₽",
+    "sizes": [
+      44,
+      46,
+      48,
+      50,
+      52,
+      54,
+      56
+    ],
+    "description": "Длинное платье из купры с длинными рукавами.",
+    "photo_url": "https://raw.githubusercontent.com/hanigovamalika7-create/korea-zura-bot/main/photos/cupra-budget-2513.jpeg"
+  },
+  {
+    "id": "cupra-budget-2515",
+    "name": "Купра · Чёрное с крупным растительным узором",
+    "price": "3 000 ₽",
+    "sizes": [
+      44,
+      46,
+      48,
+      50,
+      52,
+      54,
+      56
+    ],
+    "description": "Длинное платье из купры с длинными рукавами.",
+    "photo_url": "https://raw.githubusercontent.com/hanigovamalika7-create/korea-zura-bot/main/photos/cupra-budget-2515.jpeg"
+  },
+  {
+    "id": "cupra-budget-2516",
+    "name": "Купра · Чёрное с тонкой отделкой на груди",
+    "price": "3 000 ₽",
+    "sizes": [
+      44,
+      46,
+      48,
+      50,
+      52,
+      54,
+      56
+    ],
+    "description": "Длинное платье из купры с длинными рукавами.",
+    "photo_url": "https://raw.githubusercontent.com/hanigovamalika7-create/korea-zura-bot/main/photos/cupra-budget-2516.jpeg"
+  },
+  {
+    "id": "cupra-budget-2519",
+    "name": "Купра · Графитовое с растительным узором",
+    "price": "3 000 ₽",
+    "sizes": [
+      44,
+      46,
+      48,
+      50,
+      52,
+      54,
+      56
+    ],
+    "description": "Длинное платье из купры с длинными рукавами.",
+    "photo_url": "https://raw.githubusercontent.com/hanigovamalika7-create/korea-zura-bot/main/photos/cupra-budget-2519.jpeg"
   }
 ]
