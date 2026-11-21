@@ -1,5 +1,117 @@
 [
   {
+    "id": "mayak-short-amber-leaves",
+    "name": "Короткое · Серо-синее с охристыми листьями",
+    "price": "1 500 ₽",
+    "sizes": [
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL",
+      "5XL"
+    ],
+    "description": "Короткая модель маячного платья свободного кроя с рукавами ¾.",
+    "photo_path": "photos/mayak-short-amber-leaves.jpeg"
+  },
+  {
+    "id": "mayak-short-lilac-flowers",
+    "name": "Короткое · Оливковое с сиреневыми цветами",
+    "price": "1 500 ₽",
+    "sizes": [
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL",
+      "5XL"
+    ],
+    "description": "Короткая модель маячного платья свободного кроя с рукавами ¾.",
+    "photo_path": "photos/mayak-short-lilac-flowers.jpeg"
+  },
+  {
+    "id": "mayak-short-meadow-flowers",
+    "name": "Короткое · Серо-зелёное с полевыми цветами",
+    "price": "1 500 ₽",
+    "sizes": [
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL",
+      "5XL"
+    ],
+    "description": "Короткая модель маячного платья свободного кроя с рукавами ¾.",
+    "photo_path": "photos/mayak-short-meadow-flowers.jpeg"
+  },
+  {
+    "id": "mayak-short-terracotta-ornament",
+    "name": "Короткое · Голубое с терракотовым орнаментом",
+    "price": "1 500 ₽",
+    "sizes": [
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL",
+      "5XL"
+    ],
+    "description": "Короткая модель маячного платья свободного кроя с рукавами ¾.",
+    "photo_path": "photos/mayak-short-terracotta-ornament.jpeg"
+  },
+  {
+    "id": "mayak-short-light-branches",
+    "name": "Короткое · Серо-коричневое со светлыми веточками",
+    "price": "1 500 ₽",
+    "sizes": [
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL",
+      "5XL"
+    ],
+    "description": "Короткая модель маячного платья свободного кроя с рукавами ¾.",
+    "photo_path": "photos/mayak-short-light-branches.jpeg"
+  },
+  {
+    "id": "mayak-short-blue-ornament",
+    "name": "Короткое · Светлое с синим орнаментом",
+    "price": "1 500 ₽",
+    "sizes": [
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL",
+      "5XL"
+    ],
+    "description": "Короткая модель маячного платья свободного кроя с рукавами ¾.",
+    "photo_path": "photos/mayak-short-blue-ornament.jpeg"
+  },
+  {
+    "id": "mayak-short-blue-flowers",
+    "name": "Короткое · Серо-голубое с мелкими цветами",
+    "price": "1 500 ₽",
+    "sizes": [
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL",
+      "5XL"
+    ],
+    "description": "Короткая модель маячного платья свободного кроя с рукавами ¾.",
+    "photo_path": "photos/mayak-short-blue-flowers.png"
+  },
+  {
+    "id": "mayak-short-beige-flowers",
+    "name": "Короткое · Графитовое с бежевыми цветами",
+    "price": "1 500 ₽",
+    "sizes": [
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL",
+      "5XL"
+    ],
+    "description": "Короткая модель маячного платья свободного кроя с рукавами ¾.",
+    "photo_path": "photos/mayak-short-beige-flowers.jpeg"
+  },
+  {
     "id": "blue-flowers",
     "name": "Серо-голубое с полевыми цветами",
     "price": "1 600 ₽ в розницу · 1 400 ₽ оптом",
