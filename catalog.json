@@ -1060,5 +1060,65 @@
     "description": "Длинное хлопковое платье с отложным воротником и планкой по всей длине.",
     "photo_path": "photos/cotton-black-shirt.jpeg",
     "extra_photo_path": "photos/cotton-black-shirt-alt.jpeg"
+  },
+  {
+    "id": "velour-burgundy",
+    "name": "Халат · Бордовый",
+    "price": "1 000 ₽ со скидкой",
+    "sizes": [
+      42,
+      44,
+      46,
+      48,
+      50,
+      52
+    ],
+    "description": "Халат из холодного велюра на молнии. Однотонная модель с двумя накладными карманами.",
+    "photo_path": "photos/velour-burgundy.jpeg"
+  },
+  {
+    "id": "velour-purple",
+    "name": "Халат · Фиолетовый",
+    "price": "1 000 ₽ со скидкой",
+    "sizes": [
+      42,
+      44,
+      46,
+      48,
+      50,
+      52
+    ],
+    "description": "Халат из холодного велюра на молнии. Однотонная модель с двумя накладными карманами.",
+    "photo_path": "photos/velour-purple.jpeg"
+  },
+  {
+    "id": "velour-olive",
+    "name": "Халат · Оливковый",
+    "price": "1 000 ₽ со скидкой",
+    "sizes": [
+      42,
+      44,
+      46,
+      48,
+      50,
+      52
+    ],
+    "description": "Халат из холодного велюра на молнии. Однотонная модель с двумя накладными карманами.",
+    "photo_path": "photos/velour-olive.jpeg"
+  },
+  {
+    "id": "velour-polka-dots",
+    "name": "Халат · Чёрный в розовый горошек",
+    "price": "1 700 ₽",
+    "sizes": [
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL",
+      "5XL"
+    ],
+    "description": "Халат из холодного велюра на молнии. Рукава с оборками на манжетах.",
+    "photo_path": "photos/velour-polka-dots.jpeg",
+    "extra_photo_path": "photos/velour-polka-dots-alt.jpeg"
   }
 ]

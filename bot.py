@@ -41,6 +41,7 @@ DRESS_SECTIONS = {
     "monica": "Monica.Magni",
     "cupra": "Платья из купры",
     "cotton": "Платья из хлопка",
+    "velour": "Велюровые халаты",
     "other": "Другие платья",
 }
 PAGE_SIZE = 6
@@ -253,7 +254,7 @@ def main():
         },
         fallbacks=[CommandHandler("cancel", cancel)],
     ))
-    app.add_handler(CallbackQueryHandler(show_catalog, pattern=r"^(catalog|outerwear|menu|browse:(?:mayak|monica|cupra|cotton|other|outerwear):[0-9]+)$"))
+    app.add_handler(CallbackQueryHandler(show_catalog, pattern=r"^(catalog|outerwear|menu|browse:(?:mayak|monica|cupra|cotton|velour|other|outerwear):[0-9]+)$"))
     app.add_handler(CallbackQueryHandler(show_item, pattern=r"^item:"))
     app.run_polling()
 
