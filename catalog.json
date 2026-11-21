@@ -877,5 +877,76 @@
     ],
     "description": "Длинный домашний халат свободного кроя на молнии, с рукавами три четверти и накладными карманами.",
     "photo_path": "photos/mayak-robe-lilac.jpeg"
+  },
+  {
+    "id": "cotton-black-tiered",
+    "name": "Чёрное с ярусной юбкой",
+    "price": "4 000 ₽",
+    "sizes": [
+      42,
+      44,
+      46,
+      48,
+      50,
+      52,
+      54,
+      56
+    ],
+    "description": "Длинное хлопковое платье с отложным воротником и декоративной отделкой у горловины.",
+    "photo_path": "photos/cotton-black-tiered.jpeg",
+    "extra_photo_path": "photos/cotton-black-tiered-alt.jpeg"
+  },
+  {
+    "id": "cotton-brown-ruffle",
+    "name": "Шоколадное с оборкой",
+    "price": "4 000 ₽",
+    "sizes": [
+      42,
+      44,
+      46,
+      48,
+      50,
+      52,
+      54,
+      56
+    ],
+    "description": "Длинное хлопковое платье с вертикальной оборкой, сборкой по низу и декоративной цепочкой.",
+    "photo_path": "photos/cotton-brown-ruffle.jpeg",
+    "extra_photo_path": "photos/cotton-brown-ruffle-alt.jpeg"
+  },
+  {
+    "id": "cotton-black-ruffle",
+    "name": "Чёрное с оборкой",
+    "price": "4 000 ₽",
+    "sizes": [
+      42,
+      44,
+      46,
+      48,
+      50,
+      52,
+      54,
+      56
+    ],
+    "description": "Длинное хлопковое платье с вертикальной оборкой и рукавами на резинке.",
+    "photo_path": "photos/cotton-black-ruffle.jpeg"
+  },
+  {
+    "id": "cotton-black-shirt",
+    "name": "Чёрное платье-рубашка",
+    "price": "4 000 ₽",
+    "sizes": [
+      42,
+      44,
+      46,
+      48,
+      50,
+      52,
+      54,
+      56
+    ],
+    "description": "Длинное хлопковое платье с отложным воротником и планкой по всей длине.",
+    "photo_path": "photos/cotton-black-shirt.jpeg",
+    "extra_photo_path": "photos/cotton-black-shirt-alt.jpeg"
   }
 ]

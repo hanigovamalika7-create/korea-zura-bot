@@ -40,6 +40,7 @@ DRESS_SECTIONS = {
     "mayak": "Маячные модели",
     "monica": "Monica.Magni",
     "cupra": "Платья из купры",
+    "cotton": "Платья из хлопка",
     "other": "Другие платья",
 }
 PAGE_SIZE = 6
@@ -48,7 +49,7 @@ MAYAK_PAGE_SIZE = 9
 
 def dress_section(item):
     prefix = item["id"].split("-", 1)[0]
-    if prefix in ("mayak", "monica", "cupra"):
+    if prefix != "other" and prefix in DRESS_SECTIONS:
         return prefix
     if "маячн" in item.get("description", "").casefold():
         return "mayak"
@@ -252,7 +253,7 @@ def main():
         },
         fallbacks=[CommandHandler("cancel", cancel)],
     ))
-    app.add_handler(CallbackQueryHandler(show_catalog, pattern=r"^(catalog|outerwear|menu|browse:(?:mayak|monica|cupra|other|outerwear):[0-9]+)$"))
+    app.add_handler(CallbackQueryHandler(show_catalog, pattern=r"^(catalog|outerwear|menu|browse:(?:mayak|monica|cupra|cotton|other|outerwear):[0-9]+)$"))
     app.add_handler(CallbackQueryHandler(show_item, pattern=r"^item:"))
     app.run_polling()
 
