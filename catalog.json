@@ -75,6 +75,24 @@
     "photo_url": "https://raw.githubusercontent.com/hanigovamalika7-create/korea-zura-bot/main/photos/terracotta-ornament.jpeg"
   },
   {
+    "id": "monica-black-chiffon",
+    "name": "Monika.Magni · Чёрное шифоновое платье",
+    "price": "5 500 ₽",
+    "sizes": [
+      42,
+      44,
+      46,
+      48,
+      50,
+      52,
+      54,
+      56
+    ],
+    "description": "Длинное платье свободного кроя из чёрного шифона с фактурным цветочным узором, плиссированными рукавами и пуговицами у горловины.",
+    "photo_path": "photos/monica-black-chiffon.jpeg",
+    "extra_photo_path": "photos/monica-black-chiffon-alt.jpeg"
+  },
+  {
     "id": "monica-brown-dots-buttons",
     "name": "Monica.Magni · Коричневое в горошек с пуговицами",
     "price": "3 500 ₽ в розницу · 3 300 ₽ оптом",
