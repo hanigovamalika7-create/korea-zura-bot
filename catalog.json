@@ -1175,5 +1175,23 @@
       "photos/monica-chiffon-bronze-leaves-2.jpeg",
       "photos/monica-chiffon-bronze-leaves-3.jpeg"
     ]
+  },
+  {
+    "id": "monica-black-knit-swirl",
+    "name": "Monica.Magni · Тёплое трикотажное платье с узором",
+    "price": "3 500 ₽",
+    "sizes": [
+      12,
+      14,
+      16,
+      18,
+      20,
+      22,
+      24,
+      26
+    ],
+    "description": "Длинное чёрное платье из тёплого трикотажа с тонким узором, длинными рукавами и блестящей отделкой у горловины.",
+    "photo_path": "photos/monica-black-knit-swirl.jpeg",
+    "extra_photo_path": "photos/monica-black-knit-swirl-alt.jpeg"
   }
 ]
