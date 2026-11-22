@@ -1120,5 +1120,39 @@
     "description": "Халат из холодного велюра на молнии. Рукава с оборками на манжетах.",
     "photo_path": "photos/velour-polka-dots.jpeg",
     "extra_photo_path": "photos/velour-polka-dots-alt.jpeg"
+  },
+  {
+    "id": "monica-chiffon-side-panels",
+    "name": "Monica.Magni · Чёрное платье с шифоновыми вставками",
+    "price": "6 000 ₽",
+    "sizes": [
+      12,
+      14,
+      16,
+      18,
+      20,
+      22,
+      24,
+      26
+    ],
+    "description": "Длинное чёрное платье с шифоновыми вставками по бокам.",
+    "photo_path": "photos/monica-chiffon-side-panels.jpeg"
+  },
+  {
+    "id": "monica-black-tone-on-tone",
+    "name": "Monica.Magni · Чёрное платье с узором в тон",
+    "price": "6 500 ₽",
+    "sizes": [
+      12,
+      14,
+      16,
+      18,
+      20,
+      22,
+      24,
+      26
+    ],
+    "description": "Длинное чёрное платье свободного кроя с узором в тон.",
+    "photo_path": "photos/monica-black-tone-on-tone.jpeg"
   }
 ]
