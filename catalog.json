@@ -1193,5 +1193,23 @@
     "description": "Длинное чёрное платье из тёплого трикотажа с тонким узором, длинными рукавами и блестящей отделкой у горловины.",
     "photo_path": "photos/monica-black-knit-swirl.jpeg",
     "extra_photo_path": "photos/monica-black-knit-swirl-alt.jpeg"
+  },
+  {
+    "id": "cupra-monica-golden-floral-chiffon",
+    "name": "Monica.Magni · Платье из купра-шёлка с шифоновой вставкой",
+    "price": "6 000 ₽",
+    "sizes": [
+      12,
+      14,
+      16,
+      18,
+      20,
+      22,
+      24,
+      26
+    ],
+    "description": "Длинное чёрное платье из купра-шёлка с золотистым цветочным узором и плиссированной шифоновой вставкой сбоку.",
+    "photo_path": "photos/cupra-monica-golden-floral-chiffon.jpeg",
+    "extra_photo_path": "photos/cupra-monica-golden-floral-chiffon-alt.jpeg"
   }
 ]
