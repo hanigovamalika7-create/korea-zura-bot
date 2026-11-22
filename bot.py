@@ -173,8 +173,10 @@ async def show_item(update: Update, context: ContextTypes.DEFAULT_TYPE):
     if photo_path:
         with (CATALOG_PATH.parent / photo_path).open("rb") as photo_file:
             await query.message.reply_photo(photo=photo_file, caption="\n".join(details), reply_markup=buttons)
-        extra_photo_path = item.get("extra_photo_path")
-        if extra_photo_path:
+        extra_photo_paths = item.get("extra_photo_paths", [])
+        if item.get("extra_photo_path"):
+            extra_photo_paths = [item["extra_photo_path"], *extra_photo_paths]
+        for extra_photo_path in extra_photo_paths:
             with (CATALOG_PATH.parent / extra_photo_path).open("rb") as extra_photo:
                 await query.message.reply_photo(photo=extra_photo)
     elif photo:

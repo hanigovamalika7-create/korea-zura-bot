@@ -1154,5 +1154,26 @@
     ],
     "description": "Длинное чёрное платье свободного кроя с узором в тон.",
     "photo_path": "photos/monica-black-tone-on-tone.jpeg"
+  },
+  {
+    "id": "monica-chiffon-bronze-leaves",
+    "name": "Monica.Magni · Шифоновое платье с бронзовыми листьями",
+    "price": "6 000 ₽",
+    "sizes": [
+      12,
+      14,
+      16,
+      18,
+      20,
+      22,
+      24,
+      26
+    ],
+    "description": "Длинное чёрное шифоновое платье свободного кроя с бронзовым растительным узором, плиссированными рукавами и пуговицами у горловины.",
+    "photo_path": "photos/monica-chiffon-bronze-leaves.jpeg",
+    "extra_photo_paths": [
+      "photos/monica-chiffon-bronze-leaves-2.jpeg",
+      "photos/monica-chiffon-bronze-leaves-3.jpeg"
+    ]
   }
 ]
