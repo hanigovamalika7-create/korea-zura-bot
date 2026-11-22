@@ -1211,5 +1211,26 @@
     "description": "Длинное чёрное платье из купра-шёлка с золотистым цветочным узором и плиссированной шифоновой вставкой сбоку.",
     "photo_path": "photos/cupra-monica-golden-floral-chiffon.jpeg",
     "extra_photo_path": "photos/cupra-monica-golden-floral-chiffon-alt.jpeg"
+  },
+  {
+    "id": "cotton-monica-floral-trim",
+    "name": "Monica.Magni · Хлопковое платье с цветочной отделкой",
+    "price": "4 500 ₽",
+    "sizes": [
+      12,
+      14,
+      16,
+      18,
+      20,
+      22,
+      24,
+      26
+    ],
+    "description": "Длинное чёрное платье из мягкого хлопка с отложным воротником, цветочной отделкой в тон и широкой оборкой по низу.",
+    "photo_path": "photos/cotton-monica-floral-trim.jpeg",
+    "extra_photo_paths": [
+      "photos/cotton-monica-floral-trim-2.jpeg",
+      "photos/cotton-monica-floral-trim-3.jpeg"
+    ]
   }
 ]
